@@ -23,11 +23,11 @@
 }
 /*메인텍스트간 여백 조정 */
 .intro-text .intro-lead-in p {
-    margin-bottom: 10px; /* 간격을 원하는 크기로 설정 */
+    margin-bottom: 0px; /* 간격을 원하는 크기로 설정 */
 }
 
 .intro-text .intro-heading p {
-    margin-top: 10px; /* 간격을 원하는 크기로 설정 */
+    margin-top: 0px; /* 간격을 원하는 크기로 설정 */
 }
 
 
