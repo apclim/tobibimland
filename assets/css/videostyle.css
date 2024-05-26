@@ -19,8 +19,15 @@
 @media (max-width: 768px) {
   .video-container {
     padding-bottom: 75%; /* 모바일에서는 더 큰 비율로 설정 */
-  }
+  } .split-text{white-space: pre-wrap;/*공백과 줄 바꿈을 그대로 유지*/
+                .split-text::after{
+                  content: '홈페이지';
+                  display: block; /*줄바꿈을 위해 블록 요소로 표시 */
+                  .split-text {
+    content: '김진혁의';
+    display: block; /* 줄 바꿈을 위해 블록 요소로 표시 */
 }
+                }
 /*메인텍스트간 여백 조정 */
 .intro-text .intro-lead-in p {
     margin-bottom: 0px; /* 간격을 원하는 크기로 설정 */
