@@ -535,6 +535,19 @@ header.masthead .intro-text .intro-heading {
 .team-member p {
   margin-top: 0;
 }
+.video-container {
+  display: flex; /* 컨테이너에 flexbox 레이아웃 적용 */
+  justify-content: center; /* 콘텐츠를 수평으로 가운데 정렬 */
+  align-items: center; /* 콘텐츠를 수직으로 가운데 정렬 */
+  height: 100vh; /* 컨테이너 높이를 뷰포트 높이 100%로 설정 */
+  margin: 0; /* 기본 여백 제거 */
+}
+
+.video-container iframe {
+  width: 80%; /* 원하는 대로 iframe 너비 조정 */
+  height: auto; /* 종횡비 유지 */
+  max-width: 100%; /* iframe이 컨테이너 너비를 초과하지 않도록 설정 */
+}
 
 section#contact {
   background-color: #212529;
