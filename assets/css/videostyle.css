@@ -21,5 +21,13 @@
     padding-bottom: 75%; /* 모바일에서는 더 큰 비율로 설정 */
   }
 }
+/*메인텍스트간 여백 조정 */
+.intro-text .intro-lead-in p {
+    margin-bottom: 10px; /* 간격을 원하는 크기로 설정 */
+}
+
+.intro-text .intro-heading p {
+    margin-top: 10px; /* 간격을 원하는 크기로 설정 */
+}
 
 
